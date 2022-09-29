@@ -1,8 +1,8 @@
 module.exports = {
   TOKEN:
     process.env.TOKEN ||
-    "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+    "BMTAyNDk5MzIwMjc5ODg2MjM1Ng.G3R8Bo.QRv08hj399dD1mGtPjASo0WllXtPt20elnhWJw",
+  PREFIX: process.env.PREFIX || "2",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
@@ -72,9 +72,9 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
+      `https://discord.com/api/oauth2/authorize?client_id=1024993202798862356&permissions=8&scope=applications.commands%20bot`,
+    DiscordServer: process.env.DiscordServer || `https://discordapp.com/users/669887005987176458`,
+    VoteURL: process.env.VoteURL || `https://www.snapchat.com/add/NJJ-X`,
   },
   options: {
     embedFooter: true,
