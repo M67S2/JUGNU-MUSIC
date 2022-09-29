@@ -196,7 +196,7 @@ module.exports = async (client) => {
       .setColor(client.config.embed.color)
       .setTitle(`Join a Voice Channel and Type Song Link/Name to Play`)
       .setDescription(
-        ` [Invite Now](${client.config.links.inviteURL}) • [Support Server](${client.config.links.DiscordServer}) • [Vote Now](${client.config.links.VoteURL})`
+        ` [Invite Now](${client.config.links.inviteURL}) • [SUPPORT FAISAL](${client.config.links.DiscordServer}) • [snap](${client.config.links.VoteURL})`
       )
       .setImage(
         guild.banner
